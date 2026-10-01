@@ -1,0 +1,292 @@
+</style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+</head>
+<body>
+  <!-- Sticky SaaS Navigation -->
+  <header class="site-navbar" id="siteNavbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-brand">
+        <span>ProfitPilot</span>
+        <span class="nav-logo-badge">Micro-SaaS</span>
+      </a>
+      <button type="button" class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+      <nav class="nav-menu" id="navMenu">
+        <a href="#product" class="nav-link">Product</a>
+        <a href="#how-it-works" class="nav-link">How It Works</a>
+        <a href="#faq" class="nav-link">FAQ</a>
+        <a href="#calculator" class="nav-cta">Try ProfitPilot</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section" id="hero">
+    <div class="hero-container">
+      <div class="hero-badge-wrap">
+        <span class="brand-badge">ProfitPilot • Financial Decision Tool</span>
+      </div>
+      <h1 class="hero-title">Know your real profit.<br class="desktop-break"> Before you make your next decision.</h1>
+      <p class="hero-description">Calculate monthly profit, break-even revenue, cost concentration, and test “what-if” scenarios in seconds.</p>
+      <div class="hero-actions">
+        <a href="#calculator" class="btn-primary hero-btn">Try ProfitPilot Free</a>
+        <a href="#how-it-works" class="btn-secondary-action hero-btn">See How It Works</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Product Preview Section -->
+  <section class="preview-section" id="previewSection">
+    <div class="preview-card">
+      <div class="preview-header">
+        <div class="preview-window-dots">
+          <span class="window-dot red"></span>
+          <span class="window-dot yellow"></span>
+          <span class="window-dot green"></span>
+        </div>
+        <div>
+          <span class="example-calc-badge">Example calculation</span>
+        </div>
+        <div class="preview-mode-indicator">Preview Dashboard</div>
+      </div>
+
+      <div class="preview-body">
+        <div class="preview-top-metrics">
+          <div class="preview-metric-hero">
+            <span class="preview-label">Net Profit / Cash Flow</span>
+            <div class="preview-val-hero">$12,000.00</div>
+            <span class="preview-status-pill">Profitable • 40.0% Net Margin</span>
+          </div>
+          <div class="preview-stats-grid">
+            <div class="preview-stat-card">
+              <span class="preview-stat-label">Monthly Revenue</span>
+              <span class="preview-stat-val">$30,000.00</span>
+            </div>
+            <div class="preview-stat-card">
+              <span class="preview-stat-label">Total Costs</span>
+              <span class="preview-stat-val">$18,000.00</span>
+            </div>
+            <div class="preview-stat-card">
+              <span class="preview-stat-label">Profit Margin</span>
+              <span class="preview-stat-val">40.00%</span>
+            </div>
+            <div class="preview-stat-card">
+              <span class="preview-stat-label">Break-Even Revenue</span>
+              <span class="preview-stat-val">$12,000.00</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="preview-scenario-card">
+          <div class="preview-scenario-header">
+            <span class="preview-scenario-title">What-If Scenario Simulation</span>
+            <span class="preview-scenario-badge">+10% Revenue Test</span>
+          </div>
+          <div class="preview-scenario-row">
+            <div class="scenario-metric">
+              <span class="scen-label">Scenario Net Profit</span>
+              <span class="scen-val">$15,000.00</span>
+            </div>
+            <div class="scenario-metric">
+              <span class="scen-label">Delta Difference</span>
+              <span class="scen-val text-positive">+$3,000.00 (+25.0%)</span>
+            </div>
+            <div class="scenario-metric">
+              <span class="scen-label">Scenario Break-Even</span>
+              <span class="scen-val">$12,000.00</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="preview-footer-cta">
+          <span>Ready to analyze your own numbers?</span>
+          <a href="#calculator" class="preview-link-btn">Open Live Calculator ↓</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Value Proposition Section -->
+  <section class="landing-section value-prop-section" id="value-prop">
+    <div class="section-header-centered">
+      <span class="brand-badge">Financial Visibility</span>
+      <h2 class="section-title">What ProfitPilot helps you see</h2>
+      <p class="section-subtitle">Clear financial metrics calculated directly from your actual numbers, eliminating spreadsheet confusion.</p>
+    </div>
+    <div class="value-cards-grid">
+      <div class="card value-card">
+        <span class="card-num-badge">01</span>
+        <h3 class="value-card-title">1. Know Your Profit</h3>
+        <p class="value-card-text">See monthly revenue, total costs, net profit, and net profit margin in one place.</p>
+      </div>
+      <div class="card value-card">
+        <span class="card-num-badge">02</span>
+        <h3 class="value-card-title">2. Find Your Break-Even</h3>
+        <p class="value-card-text">Understand the revenue level required to cover your costs.</p>
+      </div>
+      <div class="card value-card">
+        <span class="card-num-badge">03</span>
+        <h3 class="value-card-title">3. Find What's Eating Your Profit</h3>
+        <p class="value-card-text">See which cost category represents the largest share of your costs.</p>
+      </div>
+      <div class="card value-card">
+        <span class="card-num-badge">04</span>
+        <h3 class="value-card-title">4. Test “What If?”</h3>
+        <p class="value-card-text">Adjust revenue, variable costs, and marketing costs to see how changes affect profitability.</p>
+      </div>
+    </div>
+    <p class="calculation-disclaimer">All results are mathematical calculations based on the numbers entered by the user, not predictions or forecasts.</p>
+  </section>
+
+  <!-- How It Works Section -->
+  <section class="landing-section how-it-works-section" id="how-it-works">
+    <div class="section-header-centered">
+      <span class="brand-badge">How It Works</span>
+      <h2 class="section-title">How it works</h2>
+      <p class="section-subtitle">A straightforward three-step process to gain complete clarity on your monthly cash flow.</p>
+    </div>
+    <div class="steps-grid">
+      <div class="card step-card">
+        <span class="step-number-tag">Step 1</span>
+        <h3 class="step-title">Enter your numbers</h3>
+        <p class="step-text">Add your monthly revenue and business costs.</p>
+      </div>
+      <div class="card step-card">
+        <span class="step-number-tag">Step 2</span>
+        <h3 class="step-title">Analyze your business</h3>
+        <p class="step-text">ProfitPilot calculates profit, margins, break-even revenue, cost concentration, and diagnostics.</p>
+      </div>
+      <div class="card step-card">
+        <span class="step-number-tag">Step 3</span>
+        <h3 class="step-title">Test a scenario</h3>
+        <p class="step-text">Change selected assumptions using the What-If controls and compare the result with your baseline.</p>
+      </div>
+    </div>
+    <div class="section-cta-wrap">
+      <a href="#calculator" class="btn-primary">Try ProfitPilot Free</a>
+    </div>
+  </section>
+
+  <!-- Diagnostics Section -->
+  <section class="landing-section diagnostics-overview-section" id="diagnostics-feature">
+    <div class="section-header-centered">
+      <span class="brand-badge">Rule-Based Insights</span>
+      <h2 class="section-title">More than a calculator</h2>
+      <p class="section-subtitle">ProfitPilot turns your financial calculations into concise, data-driven diagnostics so you can quickly understand what your numbers are telling you.</p>
+    </div>
+    <div class="card diagnostics-features-card">
+      <div class="diagnostics-grid">
+        <div class="diag-feature-item">
+          <div class="diag-bullet-icon">•</div>
+          <div>
+            <div class="diag-feature-title">Profitability status</div>
+            <div class="diag-feature-desc">Instantly indicates whether your business is profitable, operating at a loss, or at exact break-even.</div>
+          </div>
+        </div>
+        <div class="diag-feature-item">
+          <div class="diag-bullet-icon">•</div>
+          <div>
+            <div class="diag-feature-title">Break-even position</div>
+            <div class="diag-feature-desc">Identifies whether revenue is above or below break-even, and specifies the exact margin of safety.</div>
+          </div>
+        </div>
+        <div class="diag-feature-item">
+          <div class="diag-bullet-icon">•</div>
+          <div>
+            <div class="diag-feature-title">Margin analysis</div>
+            <div class="diag-feature-desc">Evaluates your net profit margin percentage relative to gross monthly revenue.</div>
+          </div>
+        </div>
+        <div class="diag-feature-item">
+          <div class="diag-bullet-icon">•</div>
+          <div>
+            <div class="diag-feature-title">Variable-cost ratio</div>
+            <div class="diag-feature-desc">Quantifies direct costs as a percentage of revenue and highlights contribution margin health.</div>
+          </div>
+        </div>
+        <div class="diag-feature-item">
+          <div class="diag-bullet-icon">•</div>
+          <div>
+            <div class="diag-feature-title">Cost concentration</div>
+            <div class="diag-feature-desc">Pinpoints your largest individual cost category and its exact share of total operating costs.</div>
+          </div>
+        </div>
+        <div class="diag-feature-item">
+          <div class="diag-bullet-icon">•</div>
+          <div>
+            <div class="diag-feature-title">Marketing-cost analysis</div>
+            <div class="diag-feature-desc">Monitors fixed customer acquisition overhead relative to total operating spend.</div>
+          </div>
+        </div>
+        <div class="diag-feature-item">
+          <div class="diag-bullet-icon">•</div>
+          <div>
+            <div class="diag-feature-title">What-If sensitivity</div>
+            <div class="diag-feature-desc">Translates percentage adjustments into clear, actionable cash-flow differences.</div>
+          </div>
+        </div>
+      </div>
+      <div class="diag-rule-notice">
+        Note: ProfitPilot diagnostics are rule-based calculations derived strictly from your input data—no artificial intelligence or estimates.
+      </div>
+    </div>
+  </section>
+
+  <!-- Export Section -->
+  <section class="landing-section export-section" id="export">
+    <div class="section-header-centered">
+      <span class="brand-badge">Export & Share</span>
+      <h2 class="section-title">Take your analysis with you</h2>
+      <p class="section-subtitle">Save your calculations or share findings with advisors, investors, and team members with one click:</p>
+    </div>
+    <div class="export-cards-grid">
+      <div class="card export-card">
+        <h3 class="export-card-title">Copy Plain-Text Summary</h3>
+        <p class="export-card-text">Quickly copy a formatted plain-text financial summary to your clipboard for easy pasting into emails, Slack messages, or documentation.</p>
+      </div>
+      <div class="card export-card">
+        <h3 class="export-card-title">Download PDF Report</h3>
+        <p class="export-card-text">Generate and download a clean, professional PDF financial report directly in your browser without waiting for server processing.</p>
+      </div>
+    </div>
+    <div class="section-cta-wrap">
+      <a href="#calculator" class="btn-primary">Run Your Analysis</a>
+    </div>
+  </section>
+
+  <!-- Privacy / Product Positioning Section -->
+  <section class="landing-section trust-section" id="trust">
+    <div class="section-header-centered">
+      <span class="brand-badge">Browser Architecture</span>
+      <h2 class="section-title">Designed for quick, browser-based analysis.</h2>
+    </div>
+    <div class="trust-grid">
+      <div class="card trust-card">
+        <h3 class="trust-card-title">No account required</h3>
+        <p class="trust-card-text">Start your analysis immediately without signing up, creating passwords, or providing an email address.</p>
+      </div>
+      <div class="card trust-card">
+        <h3 class="trust-card-title">No backend required</h3>
+        <p class="trust-card-text">Runs entirely in client-side browser memory without sending your business numbers to remote servers.</p>
+      </div>
+      <div class="card trust-card">
+        <h3 class="trust-card-title">Your current inputs are stored locally in your browser</h3>
+        <p class="trust-card-text">Browser localStorage retains your latest inputs automatically on your local device so you never lose your progress.</p>
+      </div>
+      <div class="card trust-card">
+        <h3 class="trust-card-title">Calculations happen in the browser</h3>
+        <p class="trust-card-text">Instant math execution right inside your browser window with zero network latency.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Calculator Section (The Product) -->
+  <section class="calculator-app-section" id="calculator">
+    <div class="calculator-intro-banner" id="product">
+      <span class="brand-badge">Interactive Tool</span>
+      <h2 class="section-title">Live ProfitPilot Calculator</h2>
+      <p class="section-subtitle">Enter your monthly figures below or click “Load Example” to test the engine immediately.</p>
